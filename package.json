@@ -1,7 +1,7 @@
 {
   "name": "kotlin_utils",
   "version": "1.0.0",
-  "description": "A nice greeter",
+  "description": "Javascript implementations of Kotlin functions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/mauricio-b-mossi/kotlin_utils.git"
   },
-  "keywords": ["Hello", "Greeter"],
+  "keywords": ["Kotlin"],
   "author": "Mauricio Mossi",
   "license": "ISC",
   "bugs": {
