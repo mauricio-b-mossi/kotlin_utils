@@ -6,8 +6,15 @@ requires syntax not compatible with JavaScript, list comprehensions. Therefore, 
 some Kotlin functions in JavaScript.
 
 ### Functions
-* List(items : number, generator : (e : number) => T) : Can be seen as a List constructor, accepts an integer describing the List's length and a generator function that generates each item in the List.
-* repeat(times : number, action : () => void) : Repeats action times.
+List represents a list initializer, it accepts a size and an initializer function.
+```typescript
+List<T>(size : number, init : (e : number) => T) : T[] 
+```
+
+Repeat repeats an action n times. 
+```typescript
+repeat(times : number, action : () => void) : void
+```
 
 Suggestion for more Kotlin functions are accepted.
 
