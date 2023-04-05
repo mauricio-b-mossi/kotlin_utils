@@ -17,6 +17,8 @@ export function List<T>(size: number, init: (index: number) => T): T[] {
  * This function perfoms an action n times.
  * @param {number} times Specifies the amount of times the action will be performed.
  * @param {() => void} action The action to be performed.
+ * @return {void}
+ *
  */
 export function repeat(times: number, action: () => void): void {
   for (let i = 0; i < times; i++) {
