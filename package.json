@@ -1,6 +1,6 @@
 {
   "name": "kotlin_utils",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Javascript implementations of Kotlin functions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/mauricio-b-mossi/kotlin_utils.git"
   },
-  "keywords": ["Kotlin"],
+  "keywords": [
+    "Kotlin"
+  ],
   "author": "Mauricio Mossi",
   "license": "ISC",
   "bugs": {
